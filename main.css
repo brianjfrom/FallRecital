@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.drop-page {
+  background-image: url("https://github.com/brianjfrom/FallRecital/blob/master/carguitarmain.jpg?raw=true");
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.85;
+}
+.info {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main h3,
+h4,
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.main h1 {
+  font-size: 6vw;
+  color: white;
+  text-shadow: 5px 2px 2px black, 10px 4px 4px #d7ccc8;
+}
+.main h3 {
+  font-size: 2vw;
+  color: white;
+  text-shadow: 5px 2px 2px black, 10px 4px 4px #d7ccc8;
+}
+.main h4 {
+  font-size: 3vw;
+  color: white;
+  text-shadow: 5px 2px 2px black, 10px 4px 4px #d7ccc8;
+}
+.infobar li {
+  /*padding: 2vw; */
+  display: inline;
+}
+.infobar ul {
+  padding-top: 2vh;
+}
+.infobar a {
+  padding: 2vw;
+  border-right: 1px solid #000;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+}
+.infobar a:hover {
+  background: black;
+}
+.about {
+  margin: 0 20vw;
+  padding: 10vw;
+  background: #bcaaa4;
+  opacity: 0.75;
+}
+@media (max-width: 425px) {
+  .about {
+    margin: 0 5vw;
+    padding: 5vw;
+  }
+  .img3 {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+  }
+}
+
+.about h2,
+h3 {
+  padding-top: 10px;
+  opacity: 1;
+  color: blue;
+}
+.about h3 {
+  padding-bottom: 10px;
+}
+.container1 {
+  background-image: url(https://github.com/brianjfrom/photos_for-_sites/blob/master/guitar3.jpg?raw=true);
+  height: 100%;
+  background-repeat: none;
+  background-size: cover;
+}
+.directions {
+  background-image: url("https://github.com/brianjfrom/FallRecital/blob/master/car2.jpg?raw=true");
+  height: 100vh;
+  width: auto;
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+}
+.map {
+  padding: 2vw;
+  overflow: hidden;
+}
+.container-address h3 {
+  color: yellow;
+  text-shadow: 1px 1px 2px black;
+  /*width: 50vw;
+  padding-left: 5vw;*/
+  font-size: 3vh;
+}
+.container-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2vw;
+  grid-gap: 1vw;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  background: #d7ccc8;
+  padding: 2vw;
+}
+.contact h3 {
+  color: black;
+}
+footer {
+  height: 5vh;
+  background: #d7ccc8;
+}
+footer h6 {
+  opacity: 0.7;
+  padding: 10px 10px;
+}
